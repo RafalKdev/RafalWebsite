@@ -1,10 +1,6 @@
-import AboutMe from "./components/AboutMe";
+import Navigation from "./components/Navigation";
 function App() {
-  return (
-    <>
-      <AboutMe />
-    </>
-  );
+  return <Navigation />;
 }
 
 export default App;
