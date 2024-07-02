@@ -1,24 +1,14 @@
-import ContactMe from "./ContactMe";
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
-import Home from "./Home";
+import { Link } from "react-router-dom";
+import classes from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <>
       <div>
         <ul>
-          <li>
-            <Home />
-          </li>
-          <li>
-            <AboutMe />
-          </li>
-          <li>
-            <ContactMe />
-          </li>
-          <li>
-            <Portfolio />
-          </li>
+          <Link to="/">Home</Link>
+          <Link to="/about">AboutMe</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </ul>
       </div>
     </>
