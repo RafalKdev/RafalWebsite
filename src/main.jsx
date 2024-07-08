@@ -7,12 +7,14 @@ import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
 import Portfolio from "./components/Portfolio";
 import RootLayout from "./routes/RootLayout";
+import Header from "./components/Header";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
     children: [
+      { path: "/header", element: <Header /> },
       {
         path: "/about",
         element: <AboutMe />,
