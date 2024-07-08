@@ -11,8 +11,6 @@ const Navigation = () => {
 
         <div>
           <ul className={classes.list}>
-
-          
             <Link to="/">HomeHome</Link>
 
             <Link to="/header">Home</Link>
