@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <div className={classes.headerwrapper}>
       <p className={classes.headerTitle}>Hi, my name is</p>
+      <p>Added paragraph</p>
       <h1 className={classes.headerName}>Rafal Kunicki</h1>
       <p className={classes.text}>
         I am a Junior Frontend Developer. I code and create beautifully simple
